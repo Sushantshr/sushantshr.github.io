@@ -1,3 +1,4 @@
+<script>
 document.getElementById('submitForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const formData = new FormData(this);
@@ -23,3 +24,4 @@ document.getElementById('submitForm').addEventListener('submit', function(e) {
         // Handle error if needed
     });
 });
+</script>
