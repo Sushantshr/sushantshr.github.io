@@ -7,7 +7,7 @@ document.getElementById('submitForm').addEventListener('submit', function(e) {
         formDataJson[key] = value;
     });
 
-    fetch('https://script.google.com/macros/s/AKfycbzHfdOuBioHEv6p-NA145tIbBNJGd22_PPR_eT6kcXvvT3cjCPImXGRHmrOe5ELB6GorA/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxmllkRS4jgp9kN7g_hk3dfghXxOCZCxS9kW8-Pn3o1WM8520W_uipdMHeQUgC50_g65w/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
